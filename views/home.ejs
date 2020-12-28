@@ -2,7 +2,7 @@
 
     <h1>Home</h1>
     <p>
-        <%=homeContent%>
+        <%= homepageContent%>
     </p>
 
     <% posts.forEach(function(post){ %>
@@ -14,7 +14,5 @@
                 <a href="posts/<%=post.title%>">Read More</a>
         </p>
         <% });%>
-
-
 
             <%- include("partials/footer"); -%>
